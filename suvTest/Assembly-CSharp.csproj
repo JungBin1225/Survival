@@ -57,13 +57,11 @@
     <Compile Include="Assets\Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
     <Compile Include="Assets\SCI-FI UI Pack Pro\Common\Scripts\CircleSlider.cs" />
     <Compile Include="Assets\Scripts\UI\CutScene\CutsceneBtn.cs" />
-    <Compile Include="Assets\Script\EnemyGenerator.cs" />
     <Compile Include="Assets\Scripts\CloseWeapon.cs" />
     <Compile Include="Assets\Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
     <Compile Include="Assets\Scripts\Turret.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
-    <Compile Include="Assets\Script\PlayerController.cs" />
     <Compile Include="Assets\Scripts\EnemyGenerator.cs" />
     <Compile Include="Assets\Scripts\PoisonGenerator.cs" />
     <Compile Include="Assets\Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
@@ -86,7 +84,6 @@
     <Compile Include="Assets\SCI-FI UI Pack Pro\Common\Scripts\PressedBtn.cs" />
     <Compile Include="Assets\Scripts\Getskill.cs" />
     <Compile Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Readme.cs" />
-    <Compile Include="Assets\Script\Water.cs" />
     <Compile Include="Assets\Scripts\UI\CharacterSelect\SelectDrag.cs" />
     <Compile Include="Assets\Scripts\Water.cs" />
     <Compile Include="Assets\Scripts\TextController.cs" />
@@ -98,7 +95,6 @@
     <Compile Include="Assets\Scripts\BallController.cs" />
     <Compile Include="Assets\Scripts\GameData.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs" />
-    <Compile Include="Assets\Script\EnemyController.cs" />
     <Compile Include="Assets\Scripts\Gimic\GimicManager.cs" />
     <Compile Include="Assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\EnemyControllerRange.cs" />
@@ -108,11 +104,9 @@
     <Compile Include="Assets\Scripts\UI\CameraController.cs" />
     <Compile Include="Assets\Scripts\UI\SkillChange.cs" />
     <Compile Include="Assets\Scripts\HealBox.cs" />
-    <Compile Include="Assets\Script\Turret.cs" />
     <Compile Include="Assets\Scripts\SetVolume.cs" />
     <Compile Include="Assets\Scripts\UI\DynamicJoystick_ko.cs" />
     <Compile Include="Assets\Scripts\HitArrow.cs" />
-    <Compile Include="Assets\Script\Nautilus.cs" />
     <Compile Include="Assets\Assets\Beautiful Progress Bar Free - CYKO\Scripts\SliderScripts.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDir.cs" />
     <Compile Include="Assets\Scripts\UI\MoveForwardBtn.cs" />
@@ -121,7 +115,6 @@
     <Compile Include="Assets\Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\Scripts\GameManager\GameManager.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_Translate.cs" />
-    <Compile Include="Assets\Script\Ball.cs" />
     <Compile Include="Assets\Scripts\Tutorial\tutorialTextBox.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\SkillExplane.cs" />
@@ -132,21 +125,16 @@
     <Compile Include="Assets\Scripts\SceneManagers\SceneManagerMain.cs" />
     <Compile Include="Assets\RobotSphere\Assets\Scripts\RobotFreeAnim.cs" />
     <Compile Include="Assets\Scripts\Gimic\showGimicTrigger.cs" />
-    <Compile Include="Assets\Script\KnockBack.cs" />
     <Compile Include="Assets\Scripts\Poison.cs" />
     <Compile Include="Assets\Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
     <Compile Include="Assets\skillExplain.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_New.cs" />
-    <Compile Include="Assets\Script\arrow.cs" />
-    <Compile Include="Assets\Script\PoisonGenerator.cs" />
     <Compile Include="Assets\Scripts\UI\CharacterSelect\CharacterSelectBtn.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_LightFlicker.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_AutoDestructShuriken.cs" />
     <Compile Include="Assets\Scripts\SceneManagers\nextScene.cs" />
-    <Compile Include="Assets\Script\Taunt.cs" />
     <Compile Include="Assets\Scripts\EnemyController.cs" />
     <Compile Include="Assets\Scripts\SkillGenerator.cs" />
-    <Compile Include="Assets\Script\Poison.cs" />
     <Compile Include="Assets\Scripts\UI\StatusBattery.cs" />
   </ItemGroup>
   <ItemGroup>

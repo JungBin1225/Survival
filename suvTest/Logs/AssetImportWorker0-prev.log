@@ -1,126 +1,126 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.2006; Version 2009; 64bit' Language: 'ko' Physical Memory: 16108 MB
+OS: 'Windows 10 Home; OS build 19044.2006; Version 2009; 64bit' Language: 'ko' Physical Memory: 8106 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\2020.3.18f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/ehddn/Survival/Capstone/Survival/suvTest
+C:/Users/leejungbin/Desktop/Survival/Survival/suvTest
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54293
-Successfully changed project path to: C:/Users/ehddn/Survival/Capstone/Survival/suvTest
-C:/Users/ehddn/Survival/Capstone/Survival/suvTest
+50837
+Successfully changed project path to: C:/Users/leejungbin/Desktop/Survival/Survival/suvTest
+C:/Users/leejungbin/Desktop/Survival/Survival/suvTest
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 76.21 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 158.03 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
-[Subsystems] Discovering subsystems at path C:/Program Files/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/ehddn/Survival/Capstone/Survival/suvTest/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/leejungbin/Desktop/Survival/Survival/suvTest/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
     Vendor:   
-    VRAM:     8054 MB
-    Driver:   27.20.100.8853
+    VRAM:     4019 MB
+    Driver:   31.0.15.1640
 Initialize mono
-Mono path[0] = 'C:/Program Files/2020.3.18f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001327 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008131 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 77.05 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 127.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.246 seconds
+- Completed reload, in  6.625 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1247ms)
-		BeginReloadAssembly (37ms)
+	ReloadAssembly (6625ms)
+		BeginReloadAssembly (163ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (346ms)
-			LoadAssemblies (36ms)
+		EndReloadAssembly (665ms)
+			LoadAssemblies (157ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (106ms)
+			SetupTypeCache (195ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (164ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (298ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (77ms)
-				BeforeProcessingInitializeOnLoad (12ms)
-				ProcessInitializeOnLoadAttributes (52ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
+				RefreshPlugins (128ms)
+				BeforeProcessingInitializeOnLoad (24ms)
+				ProcessInitializeOnLoadAttributes (97ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002296 seconds.
+Registered in 0.016607 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.766 seconds
+- Completed reload, in  1.662 seconds
 Domain Reload Profiling:
-	ReloadAssembly (766ms)
-		BeginReloadAssembly (101ms)
+	ReloadAssembly (1663ms)
+		BeginReloadAssembly (226ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (620ms)
-			LoadAssemblies (62ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1337ms)
+			LoadAssemblies (219ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (201ms)
+			SetupTypeCache (420ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (249ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (517ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (168ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (346ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (17ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2217 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.6 MB.
-System memory in use after: 139.5 MB.
+Unloading 2229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.8 MB.
+System memory in use after: 139.7 MB.
 
-Unloading 79 unused Assets to reduce memory usage. Loaded Objects now: 2620.
-Total: 9.650700 ms (FindLiveObjects: 0.159700 ms CreateObjectMapping: 0.044700 ms MarkObjects: 2.132700 ms  DeleteObjects: 7.312900 ms)
+Unloading 79 unused Assets to reduce memory usage. Loaded Objects now: 2632.
+Total: 19.109500 ms (FindLiveObjects: 0.250300 ms CreateObjectMapping: 0.097600 ms MarkObjects: 3.024900 ms  DeleteObjects: 15.735200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -129,198 +129,279 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Fly Forward Closed W Root.FBX
-  artifactKey: Guid(caed119049dc71f4bb02ebabb420ab6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Fly Forward Closed W Root.FBX using Guid(caed119049dc71f4bb02ebabb420ab6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7e2f34bf4c6c9abd7b1ecf1be7177a') in 0.127637 seconds 
-  Import took 0.130951 seconds .
+  path: Assets/Arround.prefab
+  artifactKey: Guid(5a933ed0568be4544a9398d6460e0ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arround.prefab using Guid(5a933ed0568be4544a9398d6460e0ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2734e4bf3f968e6d3dd03c3fe29855f5') in 0.131453 seconds 
+  Import took 0.137797 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot.FBX
-  artifactKey: Guid(771780d455b87334ab5946f7bf284359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot.FBX using Guid(771780d455b87334ab5946f7bf284359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0bba55449b7377da8eea0647254b739') in 0.033424 seconds 
-  Import took 0.036698 seconds .
+  Time since last request: 0.000438 seconds.
+  path: Assets/Soccer Ball.prefab
+  artifactKey: Guid(7090c133caf3d5d43b69a5fd1603828f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soccer Ball.prefab using Guid(7090c133caf3d5d43b69a5fd1603828f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407902828bf0958a70ee98dfc3c97e21') in 0.379339 seconds 
+  Import took 0.385864 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Fly Forward Open In Place.FBX
-  artifactKey: Guid(630e1ea2929316d47a5ef78605e3da75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Fly Forward Open In Place.FBX using Guid(630e1ea2929316d47a5ef78605e3da75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ef923a6b1832bb0245f1618ec0c211') in 0.027849 seconds 
-  Import took 0.030922 seconds .
+  Time since last request: 0.000317 seconds.
+  path: Assets/ball.mat
+  artifactKey: Guid(fd9ec3dc120bc68418d554a2c0b8c8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ball.mat using Guid(fd9ec3dc120bc68418d554a2c0b8c8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd118e70af26975c93197166eea3d4ce9') in 0.062145 seconds 
+  Import took 0.067972 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Turn Right Closed.FBX
-  artifactKey: Guid(0b6cfffa9ca207549822b57eee122b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Turn Right Closed.FBX using Guid(0b6cfffa9ca207549822b57eee122b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a1361b3acc812c0ca06c408a659fba7') in 0.030725 seconds 
-  Import took 0.033841 seconds .
+  Time since last request: 0.000281 seconds.
+  path: Assets/water.prefab
+  artifactKey: Guid(635d79f45f4dcce4fbfe8fb3a800e937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/water.prefab using Guid(635d79f45f4dcce4fbfe8fb3a800e937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8266a203314a4b46f62d6369ee005e9') in 0.039611 seconds 
+  Import took 0.047407 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Defend.FBX
-  artifactKey: Guid(8dc2c1af1a2b3734381e704c7d1526fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Defend.FBX using Guid(8dc2c1af1a2b3734381e704c7d1526fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e8e3a27a104bb6fb4ded137584aca8') in 0.030109 seconds 
-  Import took 0.033172 seconds .
+  Time since last request: 0.000372 seconds.
+  path: Assets/poison.prefab
+  artifactKey: Guid(9402f4a2c2c635f44919721c31e2a495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/poison.prefab using Guid(9402f4a2c2c635f44919721c31e2a495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6a64563c56d8a7ef2ca0a0325f5353') in 0.054471 seconds 
+  Import took 0.059958 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Idle Open.FBX
-  artifactKey: Guid(b02c0ee22d9b9ed4faf1f9d6f89ace75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Idle Open.FBX using Guid(b02c0ee22d9b9ed4faf1f9d6f89ace75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59dd8867f206c22cf49ca6cab6a527b2') in 0.027327 seconds 
-  Import took 0.030673 seconds .
+  Time since last request: 0.000240 seconds.
+  path: Assets/player.mat
+  artifactKey: Guid(0d47912ff3b072246a156131923dce28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player.mat using Guid(0d47912ff3b072246a156131923dce28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a805f7f69c92568332582c0b44fdbc8e') in 0.022767 seconds 
+  Import took 0.027786 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Shoot Attack.FBX
-  artifactKey: Guid(25f76c8e2054d2440bbefca826dd2b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Shoot Attack.FBX using Guid(25f76c8e2054d2440bbefca826dd2b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a6396553e9161ce2c76b6636d21c03') in 0.029803 seconds 
-  Import took 0.032784 seconds .
+  Time since last request: 0.000291 seconds.
+  path: Assets/enemy.mat
+  artifactKey: Guid(90ca8848b7d30f747b09f8ea74d453d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/enemy.mat using Guid(90ca8848b7d30f747b09f8ea74d453d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644c3f154e5a75cc6315c3e97c5fa886') in 0.023481 seconds 
+  Import took 0.028903 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Spawn.FBX
-  artifactKey: Guid(566329400bee5e34b843f4c85e6c8e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Spawn.FBX using Guid(566329400bee5e34b843f4c85e6c8e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edbce0e0ca76f6abc75a90c0eebf2e9c') in 0.029582 seconds 
-  Import took 0.032639 seconds .
+  Time since last request: 0.000266 seconds.
+  path: Assets/arrow.PNG
+  artifactKey: Guid(cd4a30ce82f5f2e4ebe154f923703e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arrow.PNG using Guid(cd4a30ce82f5f2e4ebe154f923703e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3385f45a67dec690654f0b3f2b3eedf6') in 0.173955 seconds 
+  Import took 0.179842 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Underground.FBX
-  artifactKey: Guid(dbdb8a4382680854c8eaa00a8724bde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Underground.FBX using Guid(dbdb8a4382680854c8eaa00a8724bde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee005ed229410aa53fb3c431ac6dc8da') in 0.029979 seconds 
-  Import took 0.033258 seconds .
+  Time since last request: 0.000349 seconds.
+  path: Assets/Enemy.prefab
+  artifactKey: Guid(6be8dc50464bab34db585de0a13c3b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy.prefab using Guid(6be8dc50464bab34db585de0a13c3b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec69e2db692ef923601d5e2d3d14eb77') in 0.026314 seconds 
+  Import took 0.034947 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Turn Left Open.FBX
-  artifactKey: Guid(3e0827bebf2b9a540a74e28e8382b292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Turn Left Open.FBX using Guid(3e0827bebf2b9a540a74e28e8382b292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49a26b29fb44edf1e76d21291b26e60') in 0.030862 seconds 
-  Import took 0.033893 seconds .
+  Time since last request: 88.149123 seconds.
+  path: Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(4K)/SciFiBg001_Cyan.png
+  artifactKey: Guid(50c9e4315c0a9294ea2345fd12905298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(4K)/SciFiBg001_Cyan.png using Guid(50c9e4315c0a9294ea2345fd12905298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a1cf6b6bac8e03d82d39e388fe1f02') in 0.082665 seconds 
+  Import took 0.089021 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Cast Spell.FBX
-  artifactKey: Guid(3b100a510d85f3345a0e31568c6dcd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Cast Spell.FBX using Guid(3b100a510d85f3345a0e31568c6dcd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4233a192c29804904b8bab08e5def27f') in 0.031400 seconds 
-  Import took 0.036069 seconds .
+  Time since last request: 0.000469 seconds.
+  path: Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(4K)/SciFiBg005_Cyan.png
+  artifactKey: Guid(123ef79818c771d47b9ec7ac0bfbacf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(4K)/SciFiBg005_Cyan.png using Guid(123ef79818c771d47b9ec7ac0bfbacf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f0ee2aa7c31d8f66bec7c36fb74f75') in 0.054523 seconds 
+  Import took 0.059063 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Rapid Fire Attack.FBX
-  artifactKey: Guid(d63236df890193e4e99c32298934ba09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Rapid Fire Attack.FBX using Guid(d63236df890193e4e99c32298934ba09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ccc73ea22b486c83040a89a60b3618f') in 0.031021 seconds 
-  Import took 0.034269 seconds .
+  Time since last request: 0.000362 seconds.
+  path: Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(4K)/SciFiBg004_Cyan.png
+  artifactKey: Guid(27b6c9f89eb1a7d46ada65552638b13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(4K)/SciFiBg004_Cyan.png using Guid(27b6c9f89eb1a7d46ada65552638b13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71222a32e21dde3f397c806d38c4716d') in 0.055175 seconds 
+  Import took 0.060685 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Fly Forward Closed In Place.FBX
-  artifactKey: Guid(0252297c05639db4e9372b13b4ad2eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Fly Forward Closed In Place.FBX using Guid(0252297c05639db4e9372b13b4ad2eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0772528fc88910185051aed708f38d') in 0.032613 seconds 
-  Import took 0.035828 seconds .
+  Time since last request: 0.000331 seconds.
+  path: Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(4K)/SciFiBg002_Cyan.png
+  artifactKey: Guid(ce8f35a262bd4ce4a8129e3437526721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(4K)/SciFiBg002_Cyan.png using Guid(ce8f35a262bd4ce4a8129e3437526721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e16ac40a81595ed458e758c970ac94f') in 0.050014 seconds 
+  Import took 0.055325 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Turn Left Closed.FBX
-  artifactKey: Guid(acb600df6376f774cadd343cfc50c9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Turn Left Closed.FBX using Guid(acb600df6376f774cadd343cfc50c9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9feef6fc9ca542fa30c56d5c5476d2') in 0.030343 seconds 
-  Import took 0.033522 seconds .
+  Time since last request: 0.000323 seconds.
+  path: Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(4K)/SciFiBg003_Cyan.png
+  artifactKey: Guid(bb59c1fbd53314740a28d4e264785d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(4K)/SciFiBg003_Cyan.png using Guid(bb59c1fbd53314740a28d4e264785d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358b16c4eb7e1c0ff94291a4bf97e1d2') in 0.048692 seconds 
+  Import took 0.053259 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series
-  artifactKey: Guid(8815e1a8324a25f48a413af03d169e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series using Guid(8815e1a8324a25f48a413af03d169e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65911a24803d440f5dd67f2d4fb63cd4') in 0.005604 seconds 
-  Import took 0.008524 seconds .
+  Time since last request: 0.000397 seconds.
+  path: Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(4K)/SciFiBg006_Cyan.png
+  artifactKey: Guid(82478b338248f4444a4d114ab7d05b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(4K)/SciFiBg006_Cyan.png using Guid(82478b338248f4444a4d114ab7d05b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef57ccdcb1c4f6fd1fe834e35cdf50a7') in 0.049293 seconds 
+  Import took 0.054053 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Die.FBX
-  artifactKey: Guid(d4f6bacbaacdb424188db19338e444d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Die.FBX using Guid(d4f6bacbaacdb424188db19338e444d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9780986c7b8d89f37e8f74b19067c9fc') in 0.031746 seconds 
-  Import took 0.034954 seconds .
+  Time since last request: 0.000337 seconds.
+  path: Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(4K)/SciFiBg007_Cyan.png
+  artifactKey: Guid(34755a73547925e47a89e658ac0864ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(4K)/SciFiBg007_Cyan.png using Guid(34755a73547925e47a89e658ac0864ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2b4dd82b72ede794cb23af206388ea') in 0.049510 seconds 
+  Import took 0.054596 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Bounce Attack.FBX
-  artifactKey: Guid(a988df7e912a49548bd8a22aa2e29df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Bounce Attack.FBX using Guid(a988df7e912a49548bd8a22aa2e29df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1bf9f69712963134343b9b48e5d7902') in 0.029505 seconds 
-  Import took 0.033051 seconds .
+  Time since last request: 0.000273 seconds.
+  path: Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(4K)/SciFiBg010_Cyan.png
+  artifactKey: Guid(b56057a5a988385468e5ce38473338cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(4K)/SciFiBg010_Cyan.png using Guid(b56057a5a988385468e5ce38473338cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a0e26abe2b06409085096762a80a04') in 0.052465 seconds 
+  Import took 0.056695 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Blast Attack.FBX
-  artifactKey: Guid(5b3779be953f2324fa638bd418e2cb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Blast Attack.FBX using Guid(5b3779be953f2324fa638bd418e2cb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a115c5d1943035c2fe8ee288533460') in 0.030694 seconds 
-  Import took 0.033779 seconds .
+  Time since last request: 0.000331 seconds.
+  path: Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(4K)/SciFiBg009_Cyan.png
+  artifactKey: Guid(ed30ca9cbd6d11f41b868384bf565940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(4K)/SciFiBg009_Cyan.png using Guid(ed30ca9cbd6d11f41b868384bf565940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32a574fbcf1c9dd8415445022fa073f') in 0.049885 seconds 
+  Import took 0.055440 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Turn Right Open.FBX
-  artifactKey: Guid(553a21326ef98304a9a90fe0871216ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Turn Right Open.FBX using Guid(553a21326ef98304a9a90fe0871216ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d1a02ff60841f18d90464d58dfb00d') in 0.033169 seconds 
-  Import took 0.036368 seconds .
+  Time since last request: 0.000307 seconds.
+  path: Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(4K)/SciFiBg011_Cyan.png
+  artifactKey: Guid(c864e804c30a5c748853af4173f30a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(4K)/SciFiBg011_Cyan.png using Guid(c864e804c30a5c748853af4173f30a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142ea5f8f0d24827a5e28810d36701c8') in 0.049571 seconds 
+  Import took 0.053505 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Idle Closed.FBX
-  artifactKey: Guid(009cfb648b7e3af439bb5af2e32436b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Idle Closed.FBX using Guid(009cfb648b7e3af439bb5af2e32436b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41b18c419eb34c71b6b5c88cbfa8c77') in 0.031585 seconds 
-  Import took 0.034931 seconds .
+  Time since last request: 0.000335 seconds.
+  path: Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(2K)/SciFiBg002_Cyan.png
+  artifactKey: Guid(4d4408c7eae3e5945a688b1eb2cd6982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(2K)/SciFiBg002_Cyan.png using Guid(4d4408c7eae3e5945a688b1eb2cd6982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c201f6543e8da6ab63b957cd43707074') in 0.083221 seconds 
+  Import took 0.087079 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Take Damage.FBX
-  artifactKey: Guid(382024289808cab4f8b91c13cd178316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Take Damage.FBX using Guid(382024289808cab4f8b91c13cd178316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d070c4a910e5a798e818bacd71b8095') in 0.031614 seconds 
-  Import took 0.035045 seconds .
+  Time since last request: 0.000375 seconds.
+  path: Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(2K)/SciFiBg006_Cyan.png
+  artifactKey: Guid(76bb6124b4a9f694eb15da4bd89b2c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(2K)/SciFiBg006_Cyan.png using Guid(76bb6124b4a9f694eb15da4bd89b2c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43df89a76cf1bf2db8fe7f352db845cf') in 0.045980 seconds 
+  Import took 0.050311 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Fly Forward Open W Root.FBX
-  artifactKey: Guid(ef7d27f3a1a08294b91c800a8562d081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX/Ball Robot@Fly Forward Open W Root.FBX using Guid(ef7d27f3a1a08294b91c800a8562d081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0c8a7e1aaa8cf9f531d8646c9dc582') in 0.032111 seconds 
-  Import took 0.035200 seconds .
+  Time since last request: 0.000324 seconds.
+  path: Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(2K)/SciFiBg005_Cyan.png
+  artifactKey: Guid(16c418f6c48482c488ece3a8783c1028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(2K)/SciFiBg005_Cyan.png using Guid(16c418f6c48482c488ece3a8783c1028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9440951bfe522df2a6644c22981e5469') in 0.043785 seconds 
+  Import took 0.048968 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX
-  artifactKey: Guid(8fbd13a5ea997ad48ae80e74a78f6c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robots Ultimate Pack 01 Cute Series/Ball Robot Cute Series/FBX using Guid(8fbd13a5ea997ad48ae80e74a78f6c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0897899af938148c413fbd146a8341df') in 0.010840 seconds 
-  Import took 0.014173 seconds .
+  Time since last request: 0.000353 seconds.
+  path: Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(2K)/TesttBg001.png
+  artifactKey: Guid(d7ede6eb0fdb6c44083630c3080a5b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(2K)/TesttBg001.png using Guid(d7ede6eb0fdb6c44083630c3080a5b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4963c81219010030b5df20fe2e28b1ea') in 0.051085 seconds 
+  Import took 0.056406 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.402079 seconds.
-  path: Assets/Scenes/Stage3.unity
-  artifactKey: Guid(43273973a80592248a27196de08fa179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Stage3.unity using Guid(43273973a80592248a27196de08fa179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d134a3295e9b5311eaab3d61ae6576') in 0.005579 seconds 
-  Import took 0.008549 seconds .
+  Time since last request: 0.000302 seconds.
+  path: Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(2K)/SciFiBg008_Cyan.png
+  artifactKey: Guid(dd34cd45938003f4b96b8fb457e90c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(2K)/SciFiBg008_Cyan.png using Guid(dd34cd45938003f4b96b8fb457e90c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a20514b68f8e7e01e016b7c2c5e2961') in 0.051423 seconds 
+  Import took 0.057435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(2K)/SciFiBg003_Cyan.png
+  artifactKey: Guid(b805062200e26cc44a6eb6a3878eaece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(2K)/SciFiBg003_Cyan.png using Guid(b805062200e26cc44a6eb6a3878eaece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a529aebd8a431971f9aa45a9355522') in 0.069854 seconds 
+  Import took 0.074545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(2K)/SciFiBg009_Cyan.png
+  artifactKey: Guid(0f1deec6831e1564aa3c2c377a85c605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(2K)/SciFiBg009_Cyan.png using Guid(0f1deec6831e1564aa3c2c377a85c605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be234895424eceb90ad71580619b255b') in 0.049723 seconds 
+  Import took 0.056169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(2K)/SciFiBg010_Cyan.png
+  artifactKey: Guid(48746fc8cccfcfc448584b37c65b7746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(2K)/SciFiBg010_Cyan.png using Guid(48746fc8cccfcfc448584b37c65b7746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ed720cb66551fcf362adf983434ea0') in 0.066412 seconds 
+  Import took 0.071402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(2K)/SciFiBg004_Cyan.png
+  artifactKey: Guid(7ed14ef4108285245883efb6fcf38b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(2K)/SciFiBg004_Cyan.png using Guid(7ed14ef4108285245883efb6fcf38b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93327c1dd1d1f2ae45f77ceb49e65c02') in 0.058825 seconds 
+  Import took 0.064584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000611 seconds.
+  path: Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(2K)/SciFiBg007_Cyan.png
+  artifactKey: Guid(ae70557288b416745869736e5e009681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(2K)/SciFiBg007_Cyan.png using Guid(ae70557288b416745869736e5e009681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9166230b853fbb7f1dbd38006c2816fc') in 0.058249 seconds 
+  Import took 0.064397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(4K)/SciFiBg008_Cyan.png
+  artifactKey: Guid(815ea307436621d4ab63355cc04502c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(4K)/SciFiBg008_Cyan.png using Guid(815ea307436621d4ab63355cc04502c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cced2e893784726949c19bf4a5c7b11f') in 0.046780 seconds 
+  Import took 0.052226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(2K)/SciFiBg001_Cyan.png
+  artifactKey: Guid(accb56122c65ea048ae037b3bd99463b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/SciFiBgs(2K)/SciFiBg001_Cyan.png using Guid(accb56122c65ea048ae037b3bd99463b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7193b08df756de499d7e5ed9539be253') in 0.060228 seconds 
+  Import took 0.065320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.727625 seconds.
+  path: Assets/Robots Ultimate Pack 01 Cute Series/Bot Robot Cute Series
+  artifactKey: Guid(6dc4bf848554d394d8e8bd6aa20cf948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robots Ultimate Pack 01 Cute Series/Bot Robot Cute Series using Guid(6dc4bf848554d394d8e8bd6aa20cf948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e03ee5777b38030fc3def23ded72df') in 0.016680 seconds 
+  Import took 0.021632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.633880 seconds.
+  path: Assets/Robots Ultimate Pack 01 Cute Series/Bot Robot Cute Series/Prefabs
+  artifactKey: Guid(839a9dd71dae2d8469846b4101aaaaee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robots Ultimate Pack 01 Cute Series/Bot Robot Cute Series/Prefabs using Guid(839a9dd71dae2d8469846b4101aaaaee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e403d93d22abf667ceb8191906f73ea') in 0.011157 seconds 
+  Import took 0.017075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.219007 seconds.
+  path: Assets/Robots Ultimate Pack 01 Cute Series/Bot Robot Cute Series/Prefabs/Bot Robot.prefab
+  artifactKey: Guid(98d1c423d58597748b115778031be849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robots Ultimate Pack 01 Cute Series/Bot Robot Cute Series/Prefabs/Bot Robot.prefab using Guid(98d1c423d58597748b115778031be849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5755bbcf38cfb16e31ed6cac887f1de') in 0.370843 seconds 
+  Import took 0.378075 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
