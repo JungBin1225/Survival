@@ -22,7 +22,7 @@ public class UIController : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
-        playerTotalHp = player.hp;
+        playerTotalHp = player.maxHp;
         expText.text = player.exp.ToString() + "/" + player.expList[player.Level].ToString(); 
         levelText.text = "Lv." + player.Level.ToString();
 
@@ -30,7 +30,7 @@ public class UIController : MonoBehaviour
         //debug
         expBar.fillAmount = 0;
         hpBar.fillAmount = 1;
-        hpText.text = player.hp.ToString();
+        hpText.text = player.GetHp().ToString();
     }
 
     // Update is called once per frame
@@ -38,7 +38,7 @@ public class UIController : MonoBehaviour
     {
         PlayerHpBar();
         PlayerExpBar();
-        if (player.hp <= 0)
+        if (player.GetHp() <= 0)
         {
             GameOverImg.gameObject.SetActive(true);
         }
@@ -47,13 +47,13 @@ public class UIController : MonoBehaviour
     public void PlayerHpBar()
     {
 
-        if (player.hp > playerTotalHp)
+        if (player.GetHp() > playerTotalHp)
         {
-            playerTotalHp = player.hp;
+            playerTotalHp = player.GetHp();
 
         }
 
-        playerHp = player.hp;
+        playerHp = player.GetHp();
         hpBar.fillAmount = playerHp / playerTotalHp;
 
 

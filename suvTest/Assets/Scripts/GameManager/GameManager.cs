@@ -16,6 +16,15 @@ public class GameManager : MonoBehaviour
     public Dictionary<string, bool> characterDic = new Dictionary<string, bool>() { {"Earth",true },{"Fire",true }, { "Water", false }
     ,{"Light",false },{"Dark",false }};
 
+    public float current_Hp;
+    public int current_Level;
+    public int current_Exp;
+    public int current_BallLV;
+    public int current_KnockbackLV;
+    public int current_TauntLV;
+    public int current_NautilusLV;
+    public int current_VirusLV;
+
     private void Awake()
     {
         if (gameManager == null)

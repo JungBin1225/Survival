@@ -84,7 +84,7 @@ public class DataSaveLoad : MonoBehaviour
             string FromJsonData = File.ReadAllText(filePath);
             _gameData = JsonUtility.FromJson<GameData>(FromJsonData);
 
-            player.hp = _gameData.hp;
+            //player.hp = _gameData.hp;
             player.Level = _gameData.level;
             player.exp = _gameData.exp;
 
@@ -105,7 +105,7 @@ public class DataSaveLoad : MonoBehaviour
         gameData.stage = GameManager.gameManager.lastStage;
         gameData.characterType = GameManager.gameManager.lastCharacter;
 
-        gameData.hp = player.hp;
+        //gameData.hp = player.hp;
         gameData.level = player.Level;
         gameData.exp = player.exp;
 
@@ -140,35 +140,35 @@ public class DataSaveLoad : MonoBehaviour
                 case "Ball":
                     for(int i = 0; i < _gameData.ballLV; i++)
                     {
-                        player.GetSkill(skill);
+                        player.GetSkill(skill, true);
                     }
                     break;
 
                 case "KnockBack":
                     for (int i = 0; i < _gameData.knockbackLV; i++)
                     {
-                        player.GetSkill(skill);
+                        player.GetSkill(skill, true);
                     }
                     break;
 
                 case "Taunt":
                     for (int i = 0; i < _gameData.tauntLV; i++)
                     {
-                        player.GetSkill(skill);
+                        player.GetSkill(skill, true);
                     }
                     break;
 
                 case "Nautilus":
                     for (int i = 0; i < _gameData.nautilusLV; i++)
                     {
-                        player.GetSkill(skill);
+                        player.GetSkill(skill, true);
                     }
                     break;
 
                 case "Virus":
                     for (int i = 0; i < _gameData.virusLV; i++)
                     {
-                        player.GetSkill(skill);
+                        player.GetSkill(skill, true);
                     }
                     break;
 

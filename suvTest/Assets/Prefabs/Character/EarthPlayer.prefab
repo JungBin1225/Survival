@@ -244,7 +244,7 @@ MonoBehaviour:
   charName: Earth
   speed: 10
   rotSpeed: 90
-  hp: 250
+  maxHp: 200
   code: 0
   ownSkill: []
   arrowPrefab: {fileID: 1581362779928783701, guid: 166ca75096175984e8591a448fefea0c, type: 3}

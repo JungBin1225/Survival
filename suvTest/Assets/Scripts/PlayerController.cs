@@ -10,7 +10,8 @@ public class PlayerController : MonoBehaviour
     public string charName;
     public float speed;
     public float rotSpeed;
-    public float hp;
+    public float maxHp;
+    private float hp;
     public float code;
     private int dir;
 
@@ -58,6 +59,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        hp = maxHp;
         ballLV = 0;
         knockbackLV = 0;
         tauntLV = 0;
@@ -75,7 +77,7 @@ public class PlayerController : MonoBehaviour
         audio = this.GetComponent<AudioSource>();
         skillIcon = FindObjectOfType<SkillList>();
 
-        InitSkill(charName);
+        InitPlayer();
     }
 
     void Update()
@@ -134,7 +136,10 @@ public class PlayerController : MonoBehaviour
         }
 
         //Status
-        
+        if(!SceneManager.GetActiveScene().name.Contains("Tutorial"))
+        {
+            UpdatePlayerInfo();
+        }
     }
 
     private void CharacterMove()
@@ -208,11 +213,11 @@ public class PlayerController : MonoBehaviour
             switch (name)
             {
                 case "Fire":
-                    GetSkill("Ball");
+                    GetSkill("Ball", true);
                     break;
 
                 case "Earth":
-                    GetSkill("KnockBack");
+                    GetSkill("KnockBack", true);
                     break;
             }
         }
@@ -254,7 +259,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void GetSkill(string type)
+    public void GetSkill(string type, bool init)
     {
         if (!ownSkill.Contains(type) && ownSkill.Count == 3)
         {
@@ -359,7 +364,7 @@ public class PlayerController : MonoBehaviour
                 break;
         }
 
-        if(ownSkill.Count <= 3)
+        if(ownSkill.Count <= 3 && !init)
         {
             skillIcon.BGAni(ownSkill.IndexOf(type));
         }
@@ -390,4 +395,55 @@ public class PlayerController : MonoBehaviour
         }
     }
     
+    private void InitPlayer()
+    {
+        if(GameManager.gameManager.current_Hp != 0)
+        {
+            hp = GameManager.gameManager.current_Hp;
+            Level = GameManager.gameManager.current_Level;
+            exp = GameManager.gameManager.current_Exp;
+
+            for(int i = 0; i < GameManager.gameManager.current_BallLV; i++)
+            {
+                GetSkill("Ball", true);
+            }
+            for (int i = 0; i < GameManager.gameManager.current_KnockbackLV; i++)
+            {
+                GetSkill("KnockBack", true);
+            }
+            for (int i = 0; i < GameManager.gameManager.current_TauntLV; i++)
+            {
+                GetSkill("Taunt", true);
+            }
+            for (int i = 0; i < GameManager.gameManager.current_NautilusLV; i++)
+            {
+                GetSkill("Nautilus", true);
+            }
+            for (int i = 0; i < GameManager.gameManager.current_VirusLV; i++)
+            {
+                GetSkill("Virus", true);
+            }
+        }
+        else
+        {
+            InitSkill(charName);
+        }
+    }
+
+    public float GetHp()
+    {
+        return this.hp;
+    }
+
+    private void UpdatePlayerInfo()
+    {
+        GameManager.gameManager.current_Hp = hp;
+        GameManager.gameManager.current_Level = Level;
+        GameManager.gameManager.current_Exp = exp;
+        GameManager.gameManager.current_BallLV = ballLV;
+        GameManager.gameManager.current_KnockbackLV = knockbackLV;
+        GameManager.gameManager.current_TauntLV = tauntLV;
+        GameManager.gameManager.current_NautilusLV = nautilusLV;
+        GameManager.gameManager.current_VirusLV = virusLV;
+    }
 }

@@ -38,12 +38,10 @@ public class Getskill : MonoBehaviour
     {
         if(other.tag == "Player")
         {
-            
-
             audio.Play();
             particle.Play();
             //img.color = new Color(img.color.r, img.color.g, img.color.b, 0f);
-            other.GetComponent<PlayerController>().GetSkill(skillType);
+            other.GetComponent<PlayerController>().GetSkill(skillType, false);
             Invoke("Delay", 0.2f);
             //Destroy(this.gameObject);
         }

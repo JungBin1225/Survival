@@ -497,7 +497,7 @@ MonoBehaviour:
   charName: Fire
   speed: 10
   rotSpeed: 120
-  hp: 250
+  maxHp: 250
   code: 0
   ownSkill: []
   arrowPrefab: {fileID: 1581362779928783701, guid: 166ca75096175984e8591a448fefea0c, type: 3}
