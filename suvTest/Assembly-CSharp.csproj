@@ -139,6 +139,8 @@
     <Compile Include="Assets\Scripts\EnemyController.cs" />
     <Compile Include="Assets\Scripts\SkillGenerator.cs" />
     <Compile Include="Assets\Scripts\UI\StatusBattery.cs" />
+    <Compile Include="Assets\Scripts\Gimic\TeleportBall.cs" />
+    <Compile Include="Assets\Scripts\Gimic\BlueHole.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Toon\Shader\Toon_DoubleShadeWithFeather_Mobile_TransClipping_StencilMask.shader" />

@@ -83,6 +83,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         CheckHP();
+        
 
         if(GameManager.gameManager.isCutScene)
         {
@@ -98,31 +99,31 @@ public class PlayerController : MonoBehaviour
 
             if (Input.GetKey(KeyCode.D))
             {
-                //transform.Translate(Time.deltaTime * speed, 0, 0);
-                direc = transform.right;
+                transform.Translate(Time.deltaTime * speed, 0, 0);
+                //direc = transform.right;
 
             }
             else if (Input.GetKey(KeyCode.A))
             {
-                //transform.Translate(-Time.deltaTime * speed, 0, 0);
-                direc = -transform.right;
+                transform.Translate(-Time.deltaTime * speed, 0, 0);
+                //direc = -transform.right;
             }
             else if (Input.GetKey(KeyCode.W))
             {
-                //transform.Translate(0, 0, Time.deltaTime * speed);
-                direc = transform.forward;
+                transform.Translate(0, 0, Time.deltaTime * speed);
+                //direc = transform.forward;
             }
             else if (Input.GetKey(KeyCode.S))
             {
-                //transform.Translate(0, 0, -Time.deltaTime * speed);
-                direc = -transform.forward;
+                transform.Translate(0, 0, -Time.deltaTime * speed);
+                //direc = -transform.forward;
             }
             else
             {
                 direc = Vector3.zero;
             }
 
-            collider.SimpleMove(direc * speed);
+            //collider.SimpleMove(direc * speed);
         }
 
         //Animations
