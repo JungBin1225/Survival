@@ -46,4 +46,20 @@ public class GameManager : MonoBehaviour
     {
         
     }
+
+    public void initManager()
+    {
+        isCutScene = false;
+        lastStage = "";
+        lastCharacter = "";
+        playerCharacterType = "";
+        current_Hp = 0;
+        current_Level = 0;
+        current_Exp = 0;
+        current_BallLV = 0;
+        current_KnockbackLV = 0;
+        current_TauntLV = 0;
+        current_NautilusLV = 0;
+        current_VirusLV = 0;
+    }
 }

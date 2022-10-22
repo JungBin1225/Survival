@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UIController : MonoBehaviour
 {
@@ -42,6 +43,10 @@ public class UIController : MonoBehaviour
         {
             GameOverImg.gameObject.SetActive(true);
         }
+        else
+        {
+            GameOverImg.gameObject.SetActive(false);
+        }
         
     }
     public void PlayerHpBar()
@@ -78,5 +83,11 @@ public class UIController : MonoBehaviour
     {
         levelText.text = "Lv." + player.Level.ToString();
 
+    }
+
+    public void GotoMain()
+    {
+        GameManager.gameManager.initManager();
+        SceneManager.LoadScene("CharacterSelect");
     }
 }

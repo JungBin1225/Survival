@@ -1841,6 +1841,10 @@ PrefabInstance:
       propertyPath: maxHp
       value: 250
       objectReference: {fileID: 0}
+    - target: {fileID: 7185009271551209073, guid: 22cb31173bb767146bb92ca59b3668d2, type: 3}
+      propertyPath: gameoverButton
+      value: 
+      objectReference: {fileID: 8439697368229055952}
     - target: {fileID: 7185009271551209075, guid: 22cb31173bb767146bb92ca59b3668d2, type: 3}
       propertyPath: m_Name
       value: FirePlayer
@@ -2132,6 +2136,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 247511213748103514, guid: d4c0a36b81235be4ba59763829fadbc4, type: 3}
+      propertyPath: gameoverButton
+      value: 
+      objectReference: {fileID: 8439697368229055952}
     - target: {fileID: 247511213748103584, guid: d4c0a36b81235be4ba59763829fadbc4, type: 3}
       propertyPath: m_Name
       value: EarthPlayer
@@ -3491,5 +3499,10 @@ PrefabInstance:
 --- !u!1 &8439697368229055951 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2630068573304855187, guid: 9abd369c9bd4e084c9631b3657689e41, type: 3}
+  m_PrefabInstance: {fileID: 8439697368229055950}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8439697368229055952 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5446035933903112126, guid: 9abd369c9bd4e084c9631b3657689e41, type: 3}
   m_PrefabInstance: {fileID: 8439697368229055950}
   m_PrefabAsset: {fileID: 0}

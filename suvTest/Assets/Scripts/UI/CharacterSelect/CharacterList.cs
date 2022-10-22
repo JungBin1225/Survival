@@ -26,6 +26,7 @@ public class CharacterList : MonoBehaviour
 
     void Start()
     {
+        GameManager.gameManager.isCutScene = false;
         audio = this.GetComponent<AudioSource>();
 
         for(int i=0;i<characterList.Count;i++)

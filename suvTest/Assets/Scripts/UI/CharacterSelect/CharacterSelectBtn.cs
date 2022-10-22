@@ -16,7 +16,8 @@ public class CharacterSelectBtn : MonoBehaviour
     public GameObject locked;
     public GameObject unlocked;
 
-    public string nextScene;
+    public string nextScene_tuto;
+    public string nextScene_main;
 
     
 
@@ -57,7 +58,13 @@ public class CharacterSelectBtn : MonoBehaviour
     }
     private void SceneMove()
     {
-        SceneManager.LoadScene(nextScene);
+        if(GameManager.gameManager.viewedTutorial)
+        {
+            SceneManager.LoadScene(nextScene_main);
+        }
+        else
+        {
+            SceneManager.LoadScene(nextScene_tuto);
+        }
     }
-    
 }

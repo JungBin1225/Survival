@@ -872,6 +872,14 @@ MonoBehaviour:
   lastStage: 
   lastCharacter: 
   playerCharacterType: 0
+  current_Hp: 0
+  current_Level: 0
+  current_Exp: 0
+  current_BallLV: 0
+  current_KnockbackLV: 0
+  current_TauntLV: 0
+  current_NautilusLV: 0
+  current_VirusLV: 0
 --- !u!1 &776019484 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1137414348868702924, guid: 30b0d2cea76d94e43b598383cdb285f9, type: 3}
@@ -1122,7 +1130,8 @@ MonoBehaviour:
   btn: {fileID: 0}
   locked: {fileID: 1955856431}
   unlocked: {fileID: 173213779}
-  nextScene: CutScene
+  nextScene_tuto: CutScene
+  nextScene_main: Stage1
 --- !u!1001 &1054297396
 PrefabInstance:
   m_ObjectHideFlags: 0

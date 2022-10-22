@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
     public int exp=0;
     public List<int> expList;
     public GameObject effectLvUp;
-
+    public GameObject gameoverButton;
 
     public int ballLV;
     public int knockbackLV;
@@ -172,7 +172,18 @@ public class PlayerController : MonoBehaviour
         {
             //gameObject.SetActive(false);
             playerCharacter.SetActive(false);
+            StartCoroutine(GameOver());
         }
+    }
+
+    IEnumerator GameOver()
+    {
+        GameManager.gameManager.initManager();
+        GameManager.gameManager.isCutScene = true;
+
+        yield return new WaitForSeconds(3f);
+
+        gameoverButton.SetActive(true);
     }
 
     public void SetExp(int expAmount)
@@ -438,13 +449,16 @@ public class PlayerController : MonoBehaviour
 
     private void UpdatePlayerInfo()
     {
-        GameManager.gameManager.current_Hp = hp;
-        GameManager.gameManager.current_Level = Level;
-        GameManager.gameManager.current_Exp = exp;
-        GameManager.gameManager.current_BallLV = ballLV;
-        GameManager.gameManager.current_KnockbackLV = knockbackLV;
-        GameManager.gameManager.current_TauntLV = tauntLV;
-        GameManager.gameManager.current_NautilusLV = nautilusLV;
-        GameManager.gameManager.current_VirusLV = virusLV;
+        if(!GameManager.gameManager.isCutScene)
+        {
+            GameManager.gameManager.current_Hp = hp;
+            GameManager.gameManager.current_Level = Level;
+            GameManager.gameManager.current_Exp = exp;
+            GameManager.gameManager.current_BallLV = ballLV;
+            GameManager.gameManager.current_KnockbackLV = knockbackLV;
+            GameManager.gameManager.current_TauntLV = tauntLV;
+            GameManager.gameManager.current_NautilusLV = nautilusLV;
+            GameManager.gameManager.current_VirusLV = virusLV;
+        }
     }
 }
