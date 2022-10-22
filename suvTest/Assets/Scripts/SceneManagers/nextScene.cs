@@ -11,13 +11,16 @@ public class nextScene : MonoBehaviour
     IEnumerator moveToNextScene()
     {
         effectNextScene.SetActive(true);
+        if(SceneManager.GetActiveScene().name == "Tutorial_2")
+        {
+            GameManager.gameManager.viewedTutorial = true;
+        }
         StartCoroutine(showClearImg());
         yield return new WaitForSeconds(2.0f);
         SceneManager.LoadScene(nextSceneText);
     }
     IEnumerator showClearImg()
     {
-
         yield return new WaitForSeconds(1.0f);
         clearImg.SetActive(true);
     }

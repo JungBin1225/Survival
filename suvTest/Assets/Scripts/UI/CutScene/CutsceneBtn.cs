@@ -70,7 +70,6 @@ public class CutsceneBtn : MonoBehaviour
     }
     IEnumerator waitTimetoScene()
     {
-        GameManager.gameManager.viewedTutorial = true;
         yield return new WaitForSeconds(2.0f);
         SceneManager.LoadScene(nextScene);
     }
