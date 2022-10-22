@@ -19,9 +19,6 @@ public class Getskill : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
         audio = this.GetComponent<AudioSource>();
         //img = this.GetComponentInChildren<Image>();
-
-        
-
     }
 
     // Update is called once per frame

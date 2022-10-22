@@ -66,6 +66,7 @@ public class PlayerController : MonoBehaviour
         nautilusLV = 0;
         virusLV = 0;
 
+
         for(int i = 0; i < 5; i++)
         {
             maxLV.Add(0);
@@ -76,6 +77,7 @@ public class PlayerController : MonoBehaviour
         collider = GetComponent<CharacterController>();
         audio = this.GetComponent<AudioSource>();
         skillIcon = FindObjectOfType<SkillList>();
+        
 
         InitPlayer();
     }
