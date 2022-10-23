@@ -185,6 +185,7 @@
     <None Include="Assets\Toon\Shader\Toon_DoubleShadeWithFeather_Clipping.shader" />
     <None Include="Assets\Toon\Shader\Tess\Toon_ShadingGradeMap_AngelRing_TransClipping_Tess.shader" />
     <None Include="Assets\Toon\Shader\ToonColor_ShadingGradeMap_StencilMask.shader" />
+    <None Include="Assets\Scripts\Tutorial\Text\Tutorial1_Text_1-3.txt" />
     <None Include="Assets\Toon\Shader\Tess\Toon_DoubleShadeWithFeather_Clipping_Tess_StencilOut.shader" />
     <None Include="Assets\Toon\Shader\Toon_DoubleShadeWithFeather_Mobile_TransClipping.shader" />
     <None Include="Assets\Toon\Shader\Tess\Toon_ShadingGradeMap_AngelRing_TransClipping_Tess_StencilOut.shader" />
@@ -249,6 +250,7 @@
     <None Include="Assets\Toon\Shader\Tess\ToonColor_DoubleShadeWithFeather_Clipping_Tess.shader" />
     <None Include="Assets\Toon\Shader\ToonColor_ShadingGradeMap_TransClipping_StencilMask.shader" />
     <None Include="Assets\Toon\Shader\Toon_DoubleShadeWithFeather.shader" />
+    <None Include="Assets\Scripts\Tutorial\Text\Tutorial_1_Text_1-1.txt" />
     <None Include="Assets\Toon\Shader\Toon_DoubleShadeWithFeather_TransClipping_StencilOut.shader" />
     <None Include="Assets\Toon\Shader\Tess\ToonColor_DoubleShadeWithFeather_Transparent_Tess.shader" />
     <None Include="Assets\Toon\Shader\Tess\ToonColor_ShadingGradeMap_TransClipping_Tess.shader" />
@@ -276,6 +278,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\Toon\Shader\ToonColor_DoubleShadeWithFeather_StencilOut.shader" />
     <None Include="Assets\Toon\Shader\Toon_OutlineObject_StencilOut.shader" />
+    <None Include="Assets\Scripts\Tutorial\Text\Tutorial1_Text_1-2.txt" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\Toon\Shader\Tess\Toon_DoubleShadeWithFeather_Tess_Light_StencilOut.shader" />
     <None Include="Assets\Toon\Shader\Tess\ToonColor_ShadingGradeMap_TransClipping_Tess_StencilOut.shader" />

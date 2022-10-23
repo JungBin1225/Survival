@@ -7,7 +7,8 @@ using TMPro;
 
 public class tutorialTextBox : MonoBehaviour
 {
-    public TextMeshProUGUI m_TypingText;
+    //public TextMeshProUGUI m_TypingText;
+    public Text m_TypingText;
     public float m_Speed = 0.02f;
     public List<string> messageList_0;
     public List<string> messageList_1;
@@ -41,7 +42,7 @@ public class tutorialTextBox : MonoBehaviour
         }
     }
 
-    IEnumerator Typing_1(TextMeshProUGUI typingText, List<string> messageList, float speed, int count)
+    IEnumerator Typing_1(Text typingText, List<string> messageList, float speed, int count)
     {
         tutoManager.textPrint = true;
 
@@ -81,7 +82,7 @@ public class tutorialTextBox : MonoBehaviour
             col = StartCoroutine(Typing_1(m_TypingText, messageList_0, m_Speed, textCount));
         }
     }
-    IEnumerator Typing_2(TextMeshProUGUI typingText, List<string> messageList, float speed, int count)
+    IEnumerator Typing_2(Text typingText, List<string> messageList, float speed, int count)
     {
         tutoManager.textPrint = true;
 
@@ -114,7 +115,7 @@ public class tutorialTextBox : MonoBehaviour
 
         }
     }
-    IEnumerator Typing_3(TextMeshProUGUI typingText, List<string> messageList, float speed, int count)
+    IEnumerator Typing_3(Text typingText, List<string> messageList, float speed, int count)
     {
         tutoManager.textPrint = true;
         for (int i = 0; typingText.text != messageList[count]; i++)
