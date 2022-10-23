@@ -4146,7 +4146,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &372437527
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4164,7 +4164,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 260.99997, y: -20}
+  m_AnchoredPosition: {x: 260.99997, y: 17}
   m_SizeDelta: {x: 100, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &372437528
@@ -4787,22 +4787,22 @@ MonoBehaviour:
   m_TypingText: {fileID: 1451351415}
   m_Speed: 0.1
   messageList_0:
-  - "-\uACFC\uD559\uC790-                                                                                           
+  - "\uACFC\uD559\uC790                                                                                           
     \uADF8\uB7FC \uC5B4\uB514 \uC798 \uC791\uB3D9\uD558\uB098 \uBCFC\uAE4C?"
-  - "-AI-                                                                                                         
+  - "AI                                                                                                         
     \u201C\uAC00\uC0C1 \uD604\uC2E4 \uC138\uACC4 Suvivor\uC5D0 \uC5B4\uC11C \uC624\uC2ED\uC2DC\uC624.\u201D"
-  - "-AI-                                                                                                     
+  - "AI                                                                                                     
     \u201C \uB2F9\uC2E0\uC740 \uC67C\uCABD\uC5D0 \uC704\uCE58\uD55C \uC88C\uCE21
     \uBC84\uD2BC\uC758 \uC88C \uC6B0 \uBC29\uD5A5 \uB4DC\uB798\uADF8\uB97C \uD1B5\uD574
     \uC5BC\uAD74\uC744 \uB3CC\uB9B4 \uC218 \uC788\uC2B5\uB2C8\uB2E4.\u201D"
   messageList_1:
-  - "-\uACFC\uD559\uC790-                                                                                                          
+  - "\uACFC\uD559\uC790                                                                                                          
     \uC624, \uBAA9\uC774 \uC790\uC5F0\uC2A4\uB7FD\uAC8C \uB3CC\uC544\uAC00\uC796\uC544?"
-  - "-AI-                                                                                                              
+  - "AI                                                                                                              
     \u201C\uB180\uB77C\uC2DC\uAE34 \uC774\uB985\uB2C8\uB2E4. \uC624\uB978 \uBC84\uD2BC\uC73C\uB85C
     \uC55E\uB4A4\uB85C \uC774\uB3D9\uD574\uBCF4\uC2DC\uAE30 \uBC14\uB78D\uB2C8\uB2E4.\u201D"
   messageList_2:
-  - "-AI-                                                                                                 
+  - "AI                                                                                                 
     \u201C\uC798\uD558\uC168\uC2B5\uB2C8\uB2E4. \uC774\uC81C \uB2F9\uC2E0\uC774 \uB2E4\uB978
     \uACF3\uC73C\uB85C \uC774\uB3D9\uD560 \uD3EC\uD0C8\uB85C \uC774\uB3D9\uD574 \uBCF4\uC2ED\uC2DC\uC624.\u201D"
   textCount: 0
@@ -10638,7 +10638,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8517676791516727017, guid: 3e623ed446739cd49873055216991d13, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.739
+      value: -0.927
       objectReference: {fileID: 0}
     - target: {fileID: 8517676791516727017, guid: 3e623ed446739cd49873055216991d13, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14194,7 +14194,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1659031137
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14212,7 +14212,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 261, y: -109}
+  m_AnchoredPosition: {x: 261, y: -72.000015}
   m_SizeDelta: {x: 100, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1659031138
