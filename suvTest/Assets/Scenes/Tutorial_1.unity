@@ -3339,8 +3339,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -58.864834, y: -1.1853}
-  m_SizeDelta: {x: 55.79858, y: 23.3707}
+  m_AnchoredPosition: {x: -60.893486, y: -1.1853}
+  m_SizeDelta: {x: 71.8145, y: 23.3707}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &270543380
 GameObject:
@@ -5705,6 +5705,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 247511214119158185, guid: d4c0a36b81235be4ba59763829fadbc4, type: 3}
+      propertyPath: m_ClearFlags
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 247511214119158185, guid: d4c0a36b81235be4ba59763829fadbc4, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 247511214119158185, guid: d4c0a36b81235be4ba59763829fadbc4, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 247511214119158185, guid: d4c0a36b81235be4ba59763829fadbc4, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4c0a36b81235be4ba59763829fadbc4, type: 3}
 --- !u!1 &606860321 stripped
@@ -7793,6 +7809,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7185009271283450018, guid: 22cb31173bb767146bb92ca59b3668d2, type: 3}
+      propertyPath: m_ClearFlags
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7185009271283450018, guid: 22cb31173bb767146bb92ca59b3668d2, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7185009271283450018, guid: 22cb31173bb767146bb92ca59b3668d2, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7185009271283450018, guid: 22cb31173bb767146bb92ca59b3668d2, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7185009271551209075, guid: 22cb31173bb767146bb92ca59b3668d2, type: 3}
       propertyPath: m_Name
       value: FirePlayer
