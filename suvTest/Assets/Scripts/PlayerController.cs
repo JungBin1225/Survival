@@ -166,6 +166,10 @@ public class PlayerController : MonoBehaviour
         audio.clip = hitsound;
         audio.Play();
         hp = hp - atk;
+        if(hp < 0)
+        {
+            hp = 0;
+        }
         ui.PlayerHpBar();
     }
     public void CheckHP()
