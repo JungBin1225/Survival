@@ -235,7 +235,7 @@ public class PlayerController : MonoBehaviour
                     break;
 
                 case "Earth":
-                    GetSkill("Ball", true);
+                    GetSkill("KnockBack", true);
                     break;
             }
         }

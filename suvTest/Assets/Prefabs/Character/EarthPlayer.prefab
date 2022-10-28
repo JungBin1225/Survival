@@ -259,6 +259,7 @@ MonoBehaviour:
   exp: 0
   expList: 64000000c8000000900100002003000040060000800c000000190000003200000064000000c8000000c8000000c8000000c8000000c8000000c8000000c80000
   effectLvUp: {fileID: 247511212916530997}
+  gameoverButton: {fileID: 0}
   ballLV: 2
   knockbackLV: 0
   tauntLV: 0
@@ -644,7 +645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ef2aeafe3f362742ba199f340b31581, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tauntPrefab: {fileID: 280541548071411365, guid: c95a863164e955f478c97a195d6ecb8a, type: 3}
+  tauntPrefab: {fileID: 762128913501417737, guid: 68a0ed6bb155cea4c858bd47c4b112ea, type: 3}
   durationByLV:
   - 2.5
   - 5

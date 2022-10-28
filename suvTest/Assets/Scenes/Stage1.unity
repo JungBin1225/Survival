@@ -21071,6 +21071,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 247511214484816070, guid: d4c0a36b81235be4ba59763829fadbc4, type: 3}
+      propertyPath: tauntPrefab
+      value: 
+      objectReference: {fileID: 762128913501417737, guid: 68a0ed6bb155cea4c858bd47c4b112ea, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4c0a36b81235be4ba59763829fadbc4, type: 3}
 --- !u!1001 &7185009271139200771
@@ -21080,6 +21084,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7185009271230213541, guid: 22cb31173bb767146bb92ca59b3668d2, type: 3}
+      propertyPath: tauntPrefab
+      value: 
+      objectReference: {fileID: 6023146929649229609, guid: d01d822ae21648d449dcbf6cf8537b94, type: 3}
     - target: {fileID: 7185009271551209073, guid: 22cb31173bb767146bb92ca59b3668d2, type: 3}
       propertyPath: skillChangeUI
       value: 
