@@ -8,8 +8,14 @@ public class nextScene : MonoBehaviour
     public string nextSceneText;
     public GameObject effectNextScene;
     public GameObject clearImg;
+    public AudioSource audio;
+    void Start()
+    {
+        audio = this.GetComponent<AudioSource>();    
+    }
     IEnumerator moveToNextScene()
     {
+        audio.Play();
         effectNextScene.SetActive(true);
         if(SceneManager.GetActiveScene().name == "Tutorial_2")
         {
