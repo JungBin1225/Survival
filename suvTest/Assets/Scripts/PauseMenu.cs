@@ -15,12 +15,18 @@ public class PauseMenu : MonoBehaviour
     public GameObject skillButton;
 
     public GameObject scroll;
+    public bool isStop;
 
     private Scrollbar scrollBar;
 
     private List<GameObject> ableUI;
     private void OnEnable()
     {
+        isStop = false;
+        if(Time.timeScale == 0)
+        {
+            isStop = true;
+        }
         Time.timeScale = 0;
         state = "Settings";
         ChangeMenu();
@@ -102,7 +108,11 @@ public class PauseMenu : MonoBehaviour
 
     public void OnCloseClicked()
     {
-        Time.timeScale = 1;
+        if(!isStop)
+        {
+            Time.timeScale = 1;
+        }
+        isStop = false;
         this.gameObject.SetActive(false);
     }
 

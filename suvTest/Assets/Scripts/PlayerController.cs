@@ -415,7 +415,7 @@ public class PlayerController : MonoBehaviour
     
     private void InitPlayer()
     {
-        if(GameManager.gameManager.current_Hp != 0)
+        if(GameManager.gameManager.current_Hp > 0)
         {
             hp = GameManager.gameManager.current_Hp;
             Level = GameManager.gameManager.current_Level;
