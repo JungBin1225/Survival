@@ -34,7 +34,7 @@ public class BlueHole : MonoBehaviour
             other.transform.position = new Vector3(ObjectToTeleport.position.x + 5, other.transform.position.y, ObjectToTeleport.position.z);
             characterController.enabled = true;
 
-            gimicManager.addType("Black"); //±‚πÕ 1 √ ±‚»≠
+            //gimicManager.addType("Black"); //±‚πÕ 1 √ ±‚»≠
 
         }
 
