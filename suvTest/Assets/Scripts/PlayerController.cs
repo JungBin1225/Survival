@@ -139,7 +139,7 @@ public class PlayerController : MonoBehaviour
         }
 
         //Status
-        if(!SceneManager.GetActiveScene().name.Contains("Tutorial"))
+        if(!SceneManager.GetActiveScene().name.Contains("Tutorial") && !GameManager.gameManager.isCutScene)
         {
             UpdatePlayerInfo();
         }
@@ -184,8 +184,8 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator GameOver()
     {
-        GameManager.gameManager.initManager();
         GameManager.gameManager.isCutScene = true;
+        GameManager.gameManager.initManager();
 
         yield return new WaitForSeconds(3f);
 

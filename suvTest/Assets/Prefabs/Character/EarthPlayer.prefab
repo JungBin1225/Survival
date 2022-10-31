@@ -792,6 +792,10 @@ PrefabInstance:
       propertyPath: speed
       value: 200
       objectReference: {fileID: 0}
+    - target: {fileID: -2816982741002862297, guid: 4b3f3668615147c429156719997ee78d, type: 3}
+      propertyPath: m_Radius
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5383127337662022564, guid: 4b3f3668615147c429156719997ee78d, type: 3}
       propertyPath: m_Name
       value: Ball_2
@@ -960,7 +964,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -2816982741002862297, guid: 4b3f3668615147c429156719997ee78d, type: 3}
       propertyPath: m_Radius
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 5190495044947194206, guid: 4b3f3668615147c429156719997ee78d, type: 3}
       propertyPath: InitialModule.startSizeY.minMaxState
@@ -1069,6 +1073,10 @@ PrefabInstance:
       propertyPath: speed
       value: 200
       objectReference: {fileID: 0}
+    - target: {fileID: -2816982741002862297, guid: 4b3f3668615147c429156719997ee78d, type: 3}
+      propertyPath: m_Radius
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5383127337662022564, guid: 4b3f3668615147c429156719997ee78d, type: 3}
       propertyPath: m_Name
       value: Ball_4
@@ -1143,6 +1151,10 @@ PrefabInstance:
     - target: {fileID: -9044215229565977800, guid: 4b3f3668615147c429156719997ee78d, type: 3}
       propertyPath: speed
       value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: -2816982741002862297, guid: 4b3f3668615147c429156719997ee78d, type: 3}
+      propertyPath: m_Radius
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 5383127337662022564, guid: 4b3f3668615147c429156719997ee78d, type: 3}
       propertyPath: m_Name

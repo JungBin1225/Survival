@@ -124,6 +124,7 @@ public class PauseMenu : MonoBehaviour
     public void OnMainClicked()
     {
         Time.timeScale = 1;
+        GameManager.gameManager.initManager();
         SceneManager.LoadScene("StartScene");
     }
 
