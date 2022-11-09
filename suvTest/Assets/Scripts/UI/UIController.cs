@@ -90,4 +90,9 @@ public class UIController : MonoBehaviour
         GameManager.gameManager.initManager();
         SceneManager.LoadScene("CharacterSelect");
     }
+
+    public void OnGimmicClicked(GameObject gimmic)
+    {
+        gimmic.SetActive(true);
+    }
 }

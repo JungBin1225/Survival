@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-    private string state;
+    public string state;
 
     public GameObject settingMenu;
     public GameObject skillMenu;
@@ -17,7 +17,7 @@ public class PauseMenu : MonoBehaviour
     public GameObject scroll;
     public bool isStop;
 
-    private Scrollbar scrollBar;
+    public Scrollbar scrollBar;
 
     private List<GameObject> ableUI;
     private void OnEnable()
@@ -28,8 +28,7 @@ public class PauseMenu : MonoBehaviour
             isStop = true;
         }
         Time.timeScale = 0;
-        state = "Settings";
-        ChangeMenu();
+
         DisableOther();
     }
 
@@ -40,7 +39,7 @@ public class PauseMenu : MonoBehaviour
 
     void Start()
     {
-        scrollBar = scroll.GetComponent<Scrollbar>();
+        //scrollBar = scroll.GetComponent<Scrollbar>();
     }
 
     
@@ -49,7 +48,7 @@ public class PauseMenu : MonoBehaviour
         scrollBar.size = 0.1f;
     }
 
-    void ChangeMenu()
+    public void ChangeMenu()
     {
         switch (state)
         {

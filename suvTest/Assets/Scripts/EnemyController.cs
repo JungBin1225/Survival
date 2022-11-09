@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyController : MonoBehaviour
 {
@@ -172,6 +173,10 @@ public class EnemyController : MonoBehaviour
             if (ani.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f)
             {
                 PlayerController.SetExp(enemytExp);  //do once
+                if(!SceneManager.GetActiveScene().name.Contains("Tutorial"))
+                {
+                    FindObjectOfType<SceneManagerMain>().spawnCount--;
+                }
                 Destroy(this.gameObject);
             }
             

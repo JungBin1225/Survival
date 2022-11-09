@@ -10,6 +10,7 @@ public class CutSceneTest : MonoBehaviour
     public GameObject stageClear;
     public TextController text;
     public List<GameObject> characterList;
+    public GameObject pauseMenu;
 
     private PlayerController player;
     private float time;
@@ -97,8 +98,10 @@ public class CutSceneTest : MonoBehaviour
         ableUI.Clear();
     }
 
-    public void OnPauseClicked(GameObject menu)
+    public void OnPauseClicked(string menu)
     {
-        menu.SetActive(true);
+        pauseMenu.SetActive(true);
+        pauseMenu.GetComponent<PauseMenu>().state = menu;
+        pauseMenu.GetComponent<PauseMenu>().ChangeMenu();
     }
 }

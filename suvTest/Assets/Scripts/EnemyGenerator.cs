@@ -8,6 +8,7 @@ public class EnemyGenerator : MonoBehaviour
     public GameObject rangeEnemy;
 
     private BoxCollider range;
+    private SceneManagerMain manager;
     private bool inRange;
     private int spawnType;
     private float time = 1.5f;
@@ -15,6 +16,7 @@ public class EnemyGenerator : MonoBehaviour
     void Start()
     {
         range = GetComponent<BoxCollider>();
+        manager = FindObjectOfType<SceneManagerMain>();
         inRange = false;
     }
 
@@ -44,7 +46,7 @@ public class EnemyGenerator : MonoBehaviour
 
     private void SpawnEnemy()
     {
-        if (!GameManager.gameManager.isCutScene)
+        if (!GameManager.gameManager.isCutScene && manager.SpawnAble())
         {
             time -= Time.deltaTime;
             spawnType = Random.Range(1, 3);
@@ -78,7 +80,7 @@ public class EnemyGenerator : MonoBehaviour
                  float posX = Random.Range(-10.0f, 10.0f);
                  float posZ = Random.Range(-10.0f, 10.0f);
                  enemy.transform.position = new Vector3(posX, 0, posZ);*/
-
+                manager.spawnCount++;
                 time = 1.5f;
             }
         }

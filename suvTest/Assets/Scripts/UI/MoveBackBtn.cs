@@ -63,7 +63,7 @@ public class MoveBackBtn : MonoBehaviour
     }
     public void BtnDown()
     {
-        if (!GameManager.gameManager.isCutScene)
+        if (!GameManager.gameManager.isCutScene && Time.timeScale == 1)
         {
             btDown = true;
             player_view.transform.rotation = Quaternion.Euler(0, player.transform.localEulerAngles.y + 180, 0);

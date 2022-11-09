@@ -5,11 +5,14 @@ using UnityEngine;
 public class showGimicTrigger : MonoBehaviour
 {
     public GameObject showGimic;
+    public GameObject showGimicButton;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
             showGimic.SetActive(true);
+            showGimicButton.SetActive(true);
         }
         
         
@@ -19,6 +22,7 @@ public class showGimicTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             showGimic.SetActive(false);
+            showGimicButton.SetActive(false);
         }
     }
 
