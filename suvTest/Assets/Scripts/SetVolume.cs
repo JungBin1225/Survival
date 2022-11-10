@@ -10,6 +10,7 @@ public class SetVolume : MonoBehaviour
     public Slider slider;
     public string type;
     private float value;
+   
 
     private void OnEnable()
     {
@@ -22,19 +23,12 @@ public class SetVolume : MonoBehaviour
             case "FX":
                 mixer.GetFloat("FXVolume", out value);
                 break;
+            
+
         }
         slider.value = value;
     }
 
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
 
     public void SetLevel(float sliderValue)
     {
@@ -48,6 +42,7 @@ public class SetVolume : MonoBehaviour
             case "FX":
                 mixer.SetFloat("FXVolume", sliderValue);
                 break;
+            
         }
         
     }

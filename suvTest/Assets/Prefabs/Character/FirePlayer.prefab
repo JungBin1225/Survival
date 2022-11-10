@@ -496,7 +496,7 @@ MonoBehaviour:
   test: 0
   charName: Fire
   speed: 10
-  rotSpeed: 120
+  rotSpeed: 60
   maxHp: 250
   code: 0
   ownSkill: []
