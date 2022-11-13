@@ -59,6 +59,7 @@
     <Compile Include="Assets\Scripts\UI\CutScene\CutsceneTextBox.cs" />
     <Compile Include="Assets\Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
     <Compile Include="Assets\SCI-FI UI Pack Pro\Common\Scripts\CircleSlider.cs" />
+    <Compile Include="Assets\Scripts\Minimap.cs" />
     <Compile Include="Assets\Scripts\UI\CutScene\CutsceneBtn.cs" />
     <Compile Include="Assets\Scripts\CloseWeapon.cs" />
     <Compile Include="Assets\Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
@@ -130,6 +131,7 @@
     <Compile Include="Assets\RobotSphere\Assets\Scripts\RobotFreeAnim.cs" />
     <Compile Include="Assets\Scripts\Gimic\showGimicTrigger.cs" />
     <Compile Include="Assets\Scripts\Poison.cs" />
+    <Compile Include="Assets\setController.cs" />
     <Compile Include="Assets\Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
     <Compile Include="Assets\skillExplain.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_New.cs" />
@@ -143,7 +145,6 @@
     <Compile Include="Assets\Scripts\EnemyController.cs" />
     <Compile Include="Assets\Scripts\SkillGenerator.cs" />
     <Compile Include="Assets\Scripts\UI\StatusBattery.cs" />
-    <Compile Include="Assets\setController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Toon\Shader\Toon_DoubleShadeWithFeather_Mobile_TransClipping_StencilMask.shader" />
