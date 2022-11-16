@@ -80,6 +80,10 @@ public class SkillList : MonoBehaviour
 
     public void SkillUpdate(int index, List<Image> iconList)
     {
+        if(player == null)
+        {
+            player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
+        }
         for (int i = 0; i < index; i++)
         {
             if (player.ownSkill.Count >= i + 1)

@@ -35,6 +35,7 @@ public class nextScene : MonoBehaviour
        
         if(other.CompareTag("Player"))
         {
+            other.GetComponent<PlayerController>().isClear = true;
             StartCoroutine(moveToNextScene());
         }
     }

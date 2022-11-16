@@ -57,6 +57,8 @@ public class PlayerController : MonoBehaviour
     AudioSource audio;
     public AudioClip hitsound;
 
+    public bool isClear;
+
     void Start()
     {
         hp = maxHp;
@@ -66,6 +68,7 @@ public class PlayerController : MonoBehaviour
         nautilusLV = 0;
         virusLV = 0;
 
+        isClear = false;
 
         for(int i = 0; i < 5; i++)
         {
@@ -163,14 +166,17 @@ public class PlayerController : MonoBehaviour
 
     public void GetDamage(float atk)
     {
-        audio.clip = hitsound;
-        audio.Play();
-        hp = hp - atk;
-        if(hp < 0)
+        if(!isClear)
         {
-            hp = 0;
+            audio.clip = hitsound;
+            audio.Play();
+            hp = hp - atk;
+            if (hp < 0)
+            {
+                hp = 0;
+            }
+            ui.PlayerHpBar();
         }
-        ui.PlayerHpBar();
     }
     public void CheckHP()
     {
