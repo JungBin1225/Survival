@@ -21237,7 +21237,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 247511213748103514, guid: d4c0a36b81235be4ba59763829fadbc4, type: 3}
       propertyPath: test
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 247511213748103514, guid: d4c0a36b81235be4ba59763829fadbc4, type: 3}
       propertyPath: maxHp

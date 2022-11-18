@@ -25,6 +25,8 @@ public class GameManager : MonoBehaviour
     public int current_NautilusLV;
     public int current_VirusLV;
 
+    public float rotValue;
+
     private void Awake()
     {
         if (gameManager == null)

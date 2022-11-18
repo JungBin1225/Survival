@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public string charName;
     public float speed;
     public float rotSpeed;
+    public float rotValue;
     public float maxHp;
     private float hp;
     public float code;
