@@ -33,6 +33,11 @@ public class MoveForwardBtn : MonoBehaviour
             player.transform.Translate(0, 0, Time.deltaTime * player.speed);
             
         }*/
+
+        if (GameManager.gameManager.isCutScene && btDown)
+        {
+            BtnUp();
+        }
     }
 
     /*public void MoveForward()
@@ -43,19 +48,16 @@ public class MoveForwardBtn : MonoBehaviour
 
     public void BtnUp()
     {
-        if(!GameManager.gameManager.isCutScene)
-        {
-            btDown = false;
-            player.isIdle = true;
-            player.ChangeDir(0);
+        btDown = false;
+        player.isIdle = true;
+        player.ChangeDir(0);
 
-            if (tutoManager != null)
+        if (tutoManager != null)
+        {
+            tutoManager.clickCount++;
+            if (tutoManager.clickCount == 2)
             {
-                tutoManager.clickCount++;
-                if (tutoManager.clickCount == 2)
-                {
-                    tutoManager.flow_4();
-                }
+                tutoManager.flow_4();
             }
         }
     }

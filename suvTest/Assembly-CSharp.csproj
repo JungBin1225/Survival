@@ -53,9 +53,6 @@
     <UnityVersion>2020.3.18f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Assets\Scripts\UI\CutScene\CutsceneTextBox.cs" />
     <Compile Include="Assets\Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
     <Compile Include="Assets\SCI-FI UI Pack Pro\Common\Scripts\CircleSlider.cs" />
@@ -146,6 +143,8 @@
     <Compile Include="Assets\Scripts\EnemyController.cs" />
     <Compile Include="Assets\Scripts\SkillGenerator.cs" />
     <Compile Include="Assets\Scripts\UI\StatusBattery.cs" />
+    <Compile Include="Assets\Scripts\Ending\Ending2Manager.cs" />
+    <Compile Include="Assets\Scripts\Ending\EventLocation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Toon\Shader\Toon_DoubleShadeWithFeather_Mobile_TransClipping_StencilMask.shader" />
@@ -174,6 +173,7 @@
     <None Include="Assets\Toon\Shader\Tess\UCTS_ShadowCaster_Tess.cginc" />
     <None Include="Assets\Toon\Shader\Toon_ShadingGradeMap_StencilOut.shader" />
     <None Include="Assets\Toon\Shader\Toon_ShadingGradeMap_AngelRing_TransClipping.shader" />
+    <None Include="Assets\Scripts\Tutorial\Text\Ending_2_Text_3.txt" />
     <None Include="Assets\Scripts\Tutorial\Text\Tutorial_2_Text_2 1.txt" />
     <None Include="Assets\Toon\Shader\Tess\ToonColor_DoubleShadeWithFeather_Transparent_Tess_StencilOut.shader" />
     <None Include="Assets\Toon\Shader\Toon_DoubleShadeWithFeather_StencilMask.shader" />
@@ -222,6 +222,7 @@
     <None Include="Assets\Toon\Shader\Tess\ToonColor_ShadingGradeMap_AngelRing_Tess.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\Scripts\Tutorial\Text\Ending_2_Text_2.txt" />
     <None Include="Assets\Toon\Shader\Tess\ToonColor_DoubleShadeWithFeather_Clipping_Tess_StencilMask.shader" />
     <None Include="Assets\Toon\Shader\Toon_DoubleShadeWithFeather_Mobile_Clipping.shader" />
     <None Include="Assets\Toon\Shader\Tess\Toon_DoubleShadeWithFeather_TransClipping_Tess_StencilMask.shader" />
@@ -231,6 +232,7 @@
     <None Include="Assets\Toon\Shader\Toon_ShadingGradeMap_Mobile_TransClipping_StencilMask.shader" />
     <None Include="Assets\Minimaps\Shaders\FogOfWar.shader" />
     <None Include="Assets\Toon\Shader\Toon_DoubleShadeWithFeather_TransClipping.shader" />
+    <None Include="Assets\Scripts\Tutorial\Text\Ending_2_Text_1.txt" />
     <None Include="Assets\Toon\Shader\Tess\ToonColor_ShadingGradeMap_Transparent_Tess.shader" />
     <None Include="Assets\Scripts\Tutorial\Text\Tutorial_2_Text_1.txt" />
     <None Include="Assets\Toon\Shader\ToonColor_ShadingGradeMap_AngelRing_TransClipping.shader" />
@@ -250,6 +252,7 @@
     <None Include="Assets\Toon\Shader\Toon_DoubleShadeWithFeather_Clipping_StencilMask.shader" />
     <None Include="Assets\Toon\Shader\Toon_ShadingGradeMap_AngelRing.shader" />
     <None Include="Assets\Toon\Shader\Toon_ShadingGradeMap_StencilMask.shader" />
+    <None Include="Assets\Scripts\Tutorial\Text\Ending_2_Text_4.txt" />
     <None Include="Assets\Toon\Shader\Toon_ShadingGradeMap.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Toon\Shader\ToonColor_DoubleShadeWithFeather_Transparent_StencilOut.shader" />
@@ -515,6 +518,15 @@
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Data\PlaybackEngines\AppleTVSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>

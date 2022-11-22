@@ -7,6 +7,8 @@ public class TextController : MonoBehaviour
 {
     public TextAsset textFile_1;
     public TextAsset textFile_2;
+    public TextAsset textFile_3;
+    public TextAsset textFile_4;
     public Text name;
     public Text textUI;
 
