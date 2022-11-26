@@ -5091,7 +5091,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1268898258
 Transform:
   m_ObjectHideFlags: 0
@@ -8003,6 +8003,7 @@ MonoBehaviour:
   current_TauntLV: 0
   current_NautilusLV: 0
   current_VirusLV: 0
+  rotValue: 0
 --- !u!4 &1852006324
 Transform:
   m_ObjectHideFlags: 0

@@ -53,6 +53,9 @@
     <UnityVersion>2020.3.18f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\Scripts\UI\CutScene\CutsceneTextBox.cs" />
     <Compile Include="Assets\Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
     <Compile Include="Assets\SCI-FI UI Pack Pro\Common\Scripts\CircleSlider.cs" />
@@ -107,6 +110,7 @@
     <Compile Include="Assets\Scripts\UI\SkillChange.cs" />
     <Compile Include="Assets\Scripts\HealBox.cs" />
     <Compile Include="Assets\Scripts\SetVolume.cs" />
+    <Compile Include="Assets\Scripts\Ending\Ending2Manager.cs" />
     <Compile Include="Assets\Scripts\UI\DynamicJoystick_ko.cs" />
     <Compile Include="Assets\Scripts\HitArrow.cs" />
     <Compile Include="Assets\Scripts\Ending\Ending1Manager.cs" />
@@ -127,6 +131,7 @@
     <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\SceneManagers\SceneManagerMain.cs" />
     <Compile Include="Assets\RobotSphere\Assets\Scripts\RobotFreeAnim.cs" />
+    <Compile Include="Assets\Scripts\Ending\EventLocation.cs" />
     <Compile Include="Assets\Scripts\Gimic\showGimicTrigger.cs" />
     <Compile Include="Assets\Scripts\Poison.cs" />
     <Compile Include="Assets\setController.cs" />
@@ -143,8 +148,7 @@
     <Compile Include="Assets\Scripts\EnemyController.cs" />
     <Compile Include="Assets\Scripts\SkillGenerator.cs" />
     <Compile Include="Assets\Scripts\UI\StatusBattery.cs" />
-    <Compile Include="Assets\Scripts\Ending\Ending2Manager.cs" />
-    <Compile Include="Assets\Scripts\Ending\EventLocation.cs" />
+    <Compile Include="Assets\Ending2_1Manager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Toon\Shader\Toon_DoubleShadeWithFeather_Mobile_TransClipping_StencilMask.shader" />
@@ -300,6 +304,7 @@
     <None Include="Assets\Toon\Shader\Tess\Toon_DoubleShadeWithFeather_Tess.shader" />
     <None Include="Assets\Toon\Shader\Tess\Toon_DoubleShadeWithFeather_TransClipping_Tess.shader" />
     <None Include="Assets\Toon\Shader\ToonColor_ShadingGradeMap.shader" />
+    <None Include="Assets\Scripts\Tutorial\Text\Ending_2-1_Text.txt" />
     <None Include="Assets\Toon\Shader\Tess\ToonColor_ShadingGradeMap_TransClipping_Tess_StencilMask.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\Toon\Shader\Toon_ShadingGradeMap_Mobile_StencilOut.shader" />
@@ -518,15 +523,6 @@
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Data\PlaybackEngines\AppleTVSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>

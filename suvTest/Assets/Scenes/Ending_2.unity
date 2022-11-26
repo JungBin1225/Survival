@@ -2498,7 +2498,7 @@ PrefabInstance:
       objectReference: {fileID: 495844499}
     - target: {fileID: 8517676791516726996, guid: 3e623ed446739cd49873055216991d13, type: 3}
       propertyPath: nextSceneText
-      value: Stage1
+      value: Ending_2-2
       objectReference: {fileID: 0}
     - target: {fileID: 8517676791516726998, guid: 3e623ed446739cd49873055216991d13, type: 3}
       propertyPath: m_Name
@@ -3661,7 +3661,7 @@ PrefabInstance:
       objectReference: {fileID: 495844499}
     - target: {fileID: 8517676791516726996, guid: 3e623ed446739cd49873055216991d13, type: 3}
       propertyPath: nextSceneText
-      value: Stage1
+      value: Ending_2-1
       objectReference: {fileID: 0}
     - target: {fileID: 8517676791516726998, guid: 3e623ed446739cd49873055216991d13, type: 3}
       propertyPath: m_Name

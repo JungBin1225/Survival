@@ -48,6 +48,7 @@ public class TextController : MonoBehaviour
 
         for(int i = 0; i < message.Length; i++)
         {
+           
             textUI.text = "";
             name.text = "";
             isTouch = false;
@@ -60,6 +61,8 @@ public class TextController : MonoBehaviour
 
                 case 'P':
                     name.text = "°úÇÐÀÚ";
+                    break;
+                default:
                     break;
             }
 
@@ -78,13 +81,13 @@ public class TextController : MonoBehaviour
 
             yield return new WaitUntil(new System.Func<bool>(nextMessage));
         }
-
         textUI.text = "";
         name.text = "";
     }
 
     bool nextMessage()
     {
+       
         return Input.GetMouseButtonDown(0);
     }
 }
